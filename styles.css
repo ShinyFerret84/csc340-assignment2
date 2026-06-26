@@ -1,10 +1,59 @@
+/* Main Color Scheme */
+
 body {
     background-color: black;
     color: #818589;
 }
 
+/* Navigation Bar */
+nav {
+    background-color: #44251E;
+    border-bottom: 2px solid #44251E;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:link {
+    color: #d4af37;
+}
+
+nav a:visited {
+    color: #556b2f;
+}
+
+nav a:hover {
+    color: #8a0000;
+}
+
+nav a:active {
+    color: whitesmoke;
+}
+
+
+/* Page Headers */
 h1 {
     color: #8a0000;
     font-family: 'Gothic', sans-serif;
     font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }
