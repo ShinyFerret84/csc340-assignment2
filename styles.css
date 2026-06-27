@@ -254,3 +254,18 @@ footer p {
     background-color: #44251E;
     color: whitesmoke;
 }
+
+/* About Page */
+.about-image {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;    
+}
