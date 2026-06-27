@@ -269,3 +269,34 @@ footer p {
     margin: auto;
     line-height: 1.8;    
 }
+
+/* New Character Form Page */
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border: 2px solid #44251E;
+    border-radius: 6px;
+    background: #1b1b1b;
+    color: #d4af37;
+    font-family: "Cinzel", serif;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #8a0000;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-family: "Cinzel", serif;
+}
+
+button:hover {
+    background: #6d0000;
+}
