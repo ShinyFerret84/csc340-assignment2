@@ -3,6 +3,7 @@
 body {
     background-color: black;
     color: #818589;
+    font-family: "Cinzel", serif;
 }
 
 /* Navigation Bar */
@@ -49,11 +50,48 @@ nav a:active {
 /* Page Headers */
 h1 {
     color: #8a0000;
-    font-family: 'Gothic', sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 h3 {
     text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0   auto;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+    gap: 10px;
+}
+
+.search-bar input{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid #44251E;
+    background: #222;
+    color: #d4af37;
+    font-family: "Cinzel", serif;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #8a0000;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-family: "Cinzel", serif;
+}
+
+.search-bar button:hover {
+    background: #6d0000;
 }
